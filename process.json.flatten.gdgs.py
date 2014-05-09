@@ -7,7 +7,8 @@ from pprint import pprint
 csvwriter = csv.writer(sys.stdout, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
 #json_data=open(sys.stdin)
-json_data=open(sys.argv[1])
+json_data=sys.stdin
+#json_data=open(sys.argv[1])
 
 #print json_data
 
